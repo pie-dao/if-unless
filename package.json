@@ -7,7 +7,7 @@
   "author": "Dan Matthews <dan@cryptobuilders.io>",
   "license": "MIT",
   "scripts": {
-    "lint": "npx eslint src/*.js src/**/*.js",
+    "lint": "npx eslint src/*.jsx",
     "release": "yarn lint && npm publish --access=public"
   },
   "dependencies": {
